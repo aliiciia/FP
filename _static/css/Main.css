@@ -1,0 +1,624 @@
+
+/*-------------------------------------------------------------------------- MAIN FORMAT --------------------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('../fonts/code_pro_demo-webfont.eot');
+    src: url('../fonts/code_pro_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/code_pro_demo-webfont.woff') format('woff'),
+         url('../fonts/code_pro_demo-webfont.ttf') format('truetype'),
+         url('../fonts/code_pro_demo-webfont.svg#code_pro_demoregular') format('svg');
+
+}
+
+*{  
+}
+
+* { margin: 0; }
+
+html{ background: url(../image/newb.png) repeat; }
+
+#wrapper{
+    background: url(../image/finalbcg.png) repeat;
+    height: 980px;
+    width: 1006px; /*021128*/
+    margin:0 auto;
+    padding: 0px;
+    line-height: 1.5em;
+}
+
+#logo h1{
+    width: 80px;
+    margin: 10px  303px 10px 15px;
+    float: left;
+    height:105px;
+}
+
+#logo a{
+	display: block;
+	height:120px;
+	outline: none;
+}
+
+nav li {
+    margin: 45px  20px 25px 0;    
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    Padding: 0px 0 0 10px;
+    font-family: 'code_pro_demoregular';
+}
+
+nav li a {
+    font-size: 1.250em;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+nav li a:hover{ color: #777; }
+
+nav li a.active { color: #26827d; }
+
+nav li a.active{ cursor: default; }
+
+a{ text-decoration: none; }
+
+
+footer{
+    font-family: 'code_pro_demoregular';
+    font-size: 0.875em;
+    clear: both;
+    background-color: #0f0f0f;
+    height: 60px;
+    width: 1006px;
+    margin:0 auto;
+}
+
+footer p{
+    float: left;
+    color: #eaeaea;
+    Padding: 0px 30px 0 10px;
+    margin: 30px 0 0 20px;
+}
+
+#divider{
+    border-right: 1px solid #d1d3d4;
+ 
+}
+
+footer a{
+    color: #eaeaea;
+    text-decoration: none;
+    border-bottom: 1px solid #26827d;
+    margin: 30px 0 0 0;
+}
+
+ul{
+  padding: 0px;
+  margin:0px;
+}
+
+/*-------------------------------------------------------------------------- HOME PAGE --------------------------------------------------------------------------------*/
+
+
+#image{
+    clear:both;
+    width: 960px;
+    height: 300px;
+    background: url(../image/slider1.jpg) no-repeat;
+    margin: 0 20px;
+}
+
+.sections{
+    margin: 0 20px;
+    width: 640px;
+    float: left;
+}
+
+.feeds{
+    width: 280px;
+    float: right;
+}
+
+#features{
+    width: 620px;
+    margin: 28px 0 ;
+    padding: 0px;
+}
+
+#events{
+    width: 280px;
+    margin: 28px 0 35px 0;
+    padding: 0px;
+}
+
+#features p{
+    font-family: "Helvetica";
+    font-size: 1.000em;
+    color: #ccc;
+    padding: 0;
+}
+
+
+#features h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.750em;
+    letter-spacing: 0.063em;
+    color: #c61717;
+    margin: 10px 0;
+}
+
+#main{
+    padding: 0px;
+    height: 1080px;
+}
+
+#headline2 img{
+    margin: 10px;
+    width: 105px;
+    float: left;
+}
+
+#headline1,#headline2{
+    width: 620px;
+    height: 140px;
+    background-color:snow;
+    margin: 0 0 25px 0;
+    border-radius: 5px;
+}
+
+#headline1 img{
+    margin: 10px;
+    width: 105px;
+    float: left;
+}
+
+#newsinfo{
+    margin:10px 20px 0 0;
+    width: 455px;
+    float: Right;  
+}
+
+#newsinfo h2 a{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.125em;
+    color: #26827d;
+    margin-bottom: 10px;
+}
+
+#newsinfo p{
+    font-family: "Helvetica";
+    font-size: 1.000em;
+    color: #555;
+    padding: 0;
+}
+
+#events h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.375em;
+    letter-spacing: 0.063em;
+    color: #7c5a1f;
+    margin: 10px 0;
+}
+
+#events li{ margin: 15px 0 20px 15px; }
+
+#evt{
+    font-family: "Helvetica";
+    font-size: 0.875em;
+    color: #ccc;
+    padding: 0;
+}
+
+#twitter h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.375em;
+    letter-spacing: 0.063em;
+    color: #7c5a1f;
+    margin: 10px 0 20px;
+}
+
+.tweets{
+    font-size:0.563em;
+    width:260px;
+    height: auto;
+    margin:5px 0;
+    padding:0;
+}
+
+.tweet{
+    overflow:hidden;
+    background-color:snow;
+    margin:5px 0;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+   
+}
+
+.tweet p.text{
+    float:right;
+    margin:5px 0;
+    width:200px;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.tweet img{
+    float:left;
+    margin:5px;
+}
+
+.tweet .time a {
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.tweet .time a:hover { text-decoration: underline; }
+
+/*-------------------------------------------------------------------------- MEDIA PAGE --------------------------------------------------------------------------------*/
+
+
+.media{ margin: 0 20px; }
+
+
+#video{
+    width: 960px;
+    height: 195px;
+    border-bottom: 2px solid #414042;
+    margin: 5px 0 5px 0; 
+}
+
+#video img{
+    margin: 5px 0 5px 5px; 
+    width: 370px;
+    float: left;
+}
+
+#videoinfo{
+    margin:10px 20px 0 0;
+    width: 500px;
+    float: Right;  
+}
+
+#videoinfo h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.313em;
+    color: #7c5a1f;
+    margin-bottom: 20px;
+}
+#videoinfo p{
+    font-family: "Helvetica";
+    font-size: 1.063em;
+    color: #ccc;
+    padding: 0;
+}
+
+
+#photo{
+    width: 960px;
+    height: 195px;
+    border-bottom: 2px solid #414042;
+    margin: 5px 0 5px 0; 
+}
+
+#photo img{
+    margin: 5px 0 5px 5px; 
+    width: 370px;
+    float: left;
+}
+
+#photoinfo{
+    margin:10px 20px 0 0;
+    width: 500px;
+    float: Right;  
+}
+
+#photoinfo h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.313em;
+    color: #7c5a1f;
+    margin-bottom: 20px;
+}
+
+#photoinfo p{
+    font-family: "Helvetica";
+    font-size: 1.063em;
+    color: #ccc;
+    padding: 0;
+}
+
+#photoinfo h5{
+    font-family: "Helvetica";
+    font-size: 0.750em;
+    color: #999;
+    padding: 0;
+}
+
+
+.tabs{
+    width: 960px;
+    border-bottom: 6px solid #c61717;
+}
+
+.tabs li {
+    list-style:none;
+    display:inline;
+    font-family: 'code_pro_demoregular';
+    font-size: 1.125em;
+    letter-spacing: 0.063em;
+}
+
+.tabs a {
+    padding:5px 10px;
+    display:inline-block;
+    background:#333;
+    color:#777;
+    text-decoration:none;
+}
+
+.tabs a.active {
+    background:#c61717;
+    color:#fff;
+}
+
+/*-------------------------------------------------------------------------- INSTRUMENTALS PAGE --------------------------------------------------------------------------------*/
+
+
+
+.inst{ margin: 0 25px; }
+
+.player{
+    width: 600px;
+    float: left;
+}
+
+.store{
+    width: 300px;
+    float: right;
+    margin:0 15px 0 0;
+}
+
+#shop{
+    height: 265px;
+    width: 315px;
+    background-color:snow;
+    border-radius: 5px;
+}
+
+#buyarea{ margin:0 32px; }
+
+#shop input{
+    width: 235px;
+    border:2px solid #939598;
+    height: 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 5px 0 15px 0;
+    font-family: "Helvetica";
+    font-size: 1.125em;
+    padding: 2px 0 2px 5px;
+}
+
+select{
+    width: 240px;
+    height: 30px;
+    font-family: "Helvetica";
+    font-size: 1.000em;
+    padding-top: 4px;
+}
+
+#buyarea h3{
+    font-family: verdana;
+    font-size: 0.938em;
+    color: #414042;
+    padding-top: 18px;
+    margin: 15px 0;  
+}
+
+#paypal{ color: #093d68; }
+
+#shop h5{
+    color: #093d68;
+    font-family: "Helvetica";
+    font-size: 1.000em;
+    margin: 15px 0 0 20px;
+}
+
+#shop img{
+    width: 160px;
+    height: 75px;
+    margin: 0 0 0 90px;
+}
+
+#lease h1{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.500em;
+    letter-spacing: 0.063em;
+    color: #c61717;
+    margin: 40px 0 0 0; 
+}
+
+#lease h5{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.500em;
+    letter-spacing: 0.063em;
+    color: #7c5a1f;
+    margin: 20px 0 0 0;   
+}
+
+#lease p{
+    font-family: "Helvetica";
+    font-size: 1.000em;
+    color: #ccc;
+    margin: 10px 0 5px 0; 
+}
+
+/*-------------------------------------------------------------------------- ABOUT US PAGE --------------------------------------------------------------------------------*/
+
+
+.about{
+    width: 593px;
+    float: right;
+    margin: 20px 20px 0 0;
+}
+
+.picture{
+    clear:both;
+    width: 320px;
+    float: left;
+    margin: 20px 0 0 25px;
+}
+
+.about p{
+    color: #ccc;
+    font-family: "Helvetica";
+    font-size: 1.063em;
+    line-height: 1.7em;  
+}
+
+.picture h3{
+    color:#c61717;
+    font-family: 'code_pro_demoregular';
+    letter-spacing: 0.063em;
+    font-size: 1.500em;
+    margin: 30px 0 20px 0;
+}
+
+.about h2{
+    color:#c61717;
+    font-family: 'code_pro_demoregular';
+    letter-spacing: 0.063em;
+    font-size: 1.625em;
+    margin: 0 0 30px 0;
+    line-height: 1.5em; 
+}
+
+#name{ font-size: 1.750em; }
+
+.picture li{
+    margin: 20px 0;
+    padding: 0px; 
+}
+
+.skill{
+    color: #7c5a1f;
+    font-family: "Helvetica";
+    font-size: 1.125em;
+}
+
+.picture ul{
+  padding: 0px;
+  margin-left: 20px;
+}
+
+/*-------------------------------------------------------------------------- CONTACT PAGE --------------------------------------------------------------------------------*/
+
+
+#wrap{
+    margin:0 25px 0 20px;
+    clear:both;
+}
+
+#info{
+    font-family: "Verdana";
+    font-size: 1.125em;
+    color: #ccc;
+    margin: 0 0 60px 0;
+}
+
+#networking ul{ margin: 0; }
+
+li{ color: #e2cc9a; }
+
+#networking li{
+    margin: 40px 0;
+    text-decoration: none;
+    list-style-type: none; 
+}
+
+#networking h2{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.625em;
+    letter-spacing: 0.063em;
+    color: #7c5a1f;
+    margin: 3px 0 0 0px;
+}
+
+#networking img{ float: left; }
+
+.text{
+    font-family: "Helvetica";
+    font-size: 1.563em;
+    color: #26827d;
+    padding-left: 8px; 
+}
+
+label{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.125em;
+    letter-spacing: 0.063em;
+    color: #7c5a1f;
+}
+
+.field input{
+    width: 475px;
+    height: 1.563em;
+    margin: 0 0 30px 0px;
+    color: #d1d3d4;
+}
+
+.field textarea{
+    width: 475px;
+    height: 200px;
+    margin: 0 0 30px 0px;
+    color: #d1d3d4;
+}
+
+#register{
+    float:left;
+    width:470px;
+    margin: 25px 0 0 0;
+}
+    
+#networking {
+    float:right;
+    width:320px;
+    margin: 30px 0 0 0;  
+}
+
+#btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.063em;
+    color: #093d68;
+    padding: 3px 20px;
+    height: 33px;
+    background: -moz-linear-gradient(
+	    top,
+	    #fbb040 0%,
+	    #f7951e);
+    background: -webkit-gradient(
+	    linear, left top, left bottom, 
+	    from(#fbb040),
+	    to(#f7951e));
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid #de8525;
+    -moz-box-shadow:
+	    0px 3px 11px rgba(000,000,000,0.1),
+	    inset 1px 13px 10px rgba(245,240,244,0.5);
+    -webkit-box-shadow:
+	    0px 3px 11px rgba(000,000,000,0.1),
+	    inset 1px 13px 10px rgba(245,240,244,0.5);
+    box-shadow:
+	    0px 3px 11px rgba(000,000,000,0.1),
+	    inset 1px 13px 10px rgba(245,240,244,0.5);
+    text-shadow:
+	    0px -1px 0px rgba(000,000,000,0.2),
+	    0px 1px 0px rgba(255,255,255,0.3);
+}
+
+
+
