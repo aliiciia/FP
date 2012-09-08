@@ -1,0 +1,23 @@
+
+
+
+.toggle li a {
+width: 50px;
+padding: 6px 0;
+-webkit-border-radius: 0 4px 4px 0;
+-moz-border-radius: 0 4px 4px 0;
+-o-border-radius: 0 4px 4px 0;
+border-radius: 0 4px 4px 0; 
+box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;
+-moz-box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;
+-webkit-box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;
+}
+
+
+
+#top .top-inner  { max-width: 960px; width: auto; }
+#top img  { float: none; display: inline;}
+
+
+
+
