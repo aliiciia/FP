@@ -41,7 +41,7 @@ return array(
 	 *
 	 * Set this to false or remove if you using mod_rewrite.
 	 */
-	'index_file'  => 'index.php',
+	'index_file'  => false,
 
 	'profiling'  => false,
 
@@ -210,7 +210,8 @@ return array(
 		 * );
 		 */
 		'packages'  => array(
-			//'orm',
+			'casset',
+			'orm',
 		),
 
 		/**
