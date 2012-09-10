@@ -69,9 +69,6 @@
 		
 					<div id="twitterSearch" class="tweets"></div>
 					
-					<script type="text/javascript">
-						$('#twitterSearch').liveTwitter('THEMEGAMINDZ', {limit: 3, imageSize:38, retweets:'user_timeline'});
-					</script>
 				</div><!--Twitter  -->
 							
 							

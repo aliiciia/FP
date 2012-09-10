@@ -13,6 +13,7 @@ class Controller_Site extends Controller_Template
 		Casset::css('demo.css');
 		Casset::css('flexslider.css');
 
+	
 		parent::before();
 	}
 
@@ -25,6 +26,14 @@ class Controller_Site extends Controller_Template
 
 	public function action_media()
 	{
+		
+
+		Casset::css('lightbox.css');
+		Casset::js('jquery-ui-1.8.18.custom.min.js');
+		Casset::js('jquery.smooth-scroll.min.js');
+		Casset::js('lightbox.js');
+		Casset::js('jquery.youtubepopup.min.js');
+
 		$this->template->content = View::forge('site/media');
 	}
     
@@ -40,7 +49,7 @@ class Controller_Site extends Controller_Template
 
     public function action_contact()
     {
-    	Casset::js('jquery.youtubepopup.min.js');
+    	
     	$this->template->content = View::forge('site/contact');	
     }
 }

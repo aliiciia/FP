@@ -17,6 +17,15 @@
 	<div id="networking">
 			<h2>Networking</h2>
 			<ul>
+
+
+
+                 <?= Html::anchor('http://www.twitter.com/themegamindz',  Asset::img('twitter.png', '', array('alt' => 'twitter')), array('class' => 'text')) ?>
+
+			
+
+
+				
 				<li> <a href="https://twitter.com/themegamindz"><img src="image/twitter.png" alt="twiter" width=35px height=35px /> <span class='text'>themegamindz</span></a></li>
 				<li> <a href="https://www.soundclick.com/themegamindz"><img src="image/soundclick.png" alt="soundclick" width=35px height=35px /> <span class='text'>themegamindz</span> </a></li>
 				<li> <a href="https://www.facebook.com/mega.mindz.75"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>mega.mindz.75 </span> </a></li>
