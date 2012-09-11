@@ -17,10 +17,10 @@
 
 * { margin: 0; }
 
-html{ background: url(../image/newb.png) repeat; }
+html{ background: url(../img/newb.png) repeat; }
 
 #wrapper{
-    background: url(../image/finalbcg.png) repeat;
+    background: url(../img/finalbcg.png) repeat;
     height: 980px;
     width: 1006px; /*021128*/
     margin:0 auto;
@@ -106,7 +106,7 @@ ul{
     clear:both;
     width: 960px;
     height: 300px;
-    background: url(../image/slider1.jpg) no-repeat;
+    background: url(../img/slider1.jpg) no-repeat;
     margin: 0 20px;
 }
 
@@ -365,12 +365,15 @@ ul{
 /*-------------------------------------------------------------------------- INSTRUMENTALS PAGE --------------------------------------------------------------------------------*/
 
 
-
 .inst{ margin: 0 25px; }
 
 .player{
     width: 600px;
     float: left;
+}
+
+#musicPlayer{
+    border-radius: 5px;
 }
 
 .store{
@@ -388,14 +391,14 @@ ul{
 
 #buyarea{ margin:0 32px; }
 
-#shop input{
+#namefield{
     width: 235px;
     border:2px solid #939598;
     height: 30px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    margin: 5px 0 15px 0;
+    margin: 0 0 15px 0;
     font-family: "Helvetica";
     font-size: 1.125em;
     padding: 2px 0 2px 5px;
@@ -406,24 +409,29 @@ select{
     height: 30px;
     font-family: "Helvetica";
     font-size: 1.000em;
-    padding-top: 4px;
+    margin: 0 0 8px 0;
 }
 
 #buyarea h3{
     font-family: verdana;
     font-size: 0.938em;
     color: #414042;
-    padding-top: 18px;
-    margin: 15px 0;  
+    padding-top: 5px;
+    
 }
 
 #paypal{ color: #093d68; }
 
-#shop h5{
+#paypalbtn{
+     margin: 0px 0 5px 25px;
+     width: 200px;
+}
+#inputname{
     color: #093d68;
     font-family: "Helvetica";
-    font-size: 1.000em;
-    margin: 15px 0 0 20px;
+    font-size: 1.0em;
+    margin: 10px 0 0 20px;
+    font-weight: bold;
 }
 
 #shop img{
@@ -454,7 +462,6 @@ select{
     color: #ccc;
     margin: 10px 0 5px 0; 
 }
-
 /*-------------------------------------------------------------------------- ABOUT US PAGE --------------------------------------------------------------------------------*/
 
 

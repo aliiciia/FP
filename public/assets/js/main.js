@@ -33,6 +33,8 @@ $(document).ready(function(){
     });
 });
 
+
+
 $(document).ready(function($) {
       $('#photo a').smoothScroll({
         speed: 1000,
@@ -44,7 +46,7 @@ $(document).ready(function($) {
         $(this).fadeOut();
         e.preventDefault();
       })
-  });
+});
 
 
  $(function () {
@@ -64,7 +66,10 @@ $(function(){
 	    }
     });
 });
-    
-
   
+$(document).ready(function($){
+	$('#twitterSearch').liveTwitter('THEMEGAMINDZ', {limit: 3, imageSize:38, retweets:'user_timeline'});
+});
+      
+
    
