@@ -28,14 +28,15 @@
 	<div id='tab2'>
 		<div id="photo">
 			
-			<?= Html::anchor('album/pic1.jpg','', Asset::img('shawns.jpg'), array('rel' => 'lightbox[mmz]', 'alt' => 'mmz: image 1 0f 5 thumb', 'title' => 'The MegaMindz making a hit.')) ?>
+			<?= Html::anchor('assets/img/album/pic1.jpg', Asset::img('shawns.jpg'), array('rel' => 'lightbox[mmz]', 'alt' => 'mmz: image 1 0f 5 thumb', 'title' => 'The MegaMindz making a hit.')) ?>
 
-			<?= Html::anchor('album/pic2.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'Mac Glo, The MegaMindz, Chris &amp Phatss.')) ?>
+			<?= Html::anchor('assets/img/album/pic2.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'Mac Glo, The MegaMindz, Chris & Phatss')) ?>
 
-			<?= Html::anchor('album/pic3.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'The MegaMindz hard at work')) ?>
+			<?= Html::anchor('assets/img/album/pic3.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'The MegaMindz hard at work')) ?>
 			
-			<?= Html::anchor('album/pic4.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'Phatss, The MegaMindz, Mac Glo &amp Chris')) ?>
-			<?= Html::anchor('album/pic5.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'Mac Glo, The MegaMindz, Chris &amp Phatss.')) ?>
+			<?= Html::anchor('assets/img/album/pic4.jpg', '', array('rel' => 'lightbox[mmz]', 'title' => 'Phatss, The MegaMindz, Mac Glo & Chris')) ?>
+
+			<?= Html::anchor('assets/img/album/pic5.jpg',  '', array('rel' => 'lightbox[mmz]', 'title' => 'Mac Glo, The MegaMindz, Chris & Phatss.')) ?>
 
 			<div id="photoinfo">
 				<h2>Late Night session, Early Moring Grind</h2>
@@ -45,15 +46,16 @@
 		</div><!--Photo  -->
 			
 		<div id="photo">
-			<?= Html::anchor('album/studio1.jpg', '', Asset::img('smg.jpg'), array('rel' => 'lightbox[studio]', 'alt' => 'mmz: image 1 0f 5 thumb', 'title' => 'The MegaMindz and Mac Glo at Plush.')) ?>
+			<?= Html::anchor('assets/img/album/studio1.jpg',  Asset::img('smg.jpg'), array('rel' => 'lightbox[studio]', 'alt' => 'mmz: image 1 0f 5 thumb', 'title' => 'The MegaMindz and Mac Glo at Plush.')) ?>
 
-			<?= Html::anchor('album/studio2.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'Session with The MegaMindz, Wankaego & Dj DStrong.')) ?>
+			<?= Html::anchor('assets/img/album/studio2.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'Session with The MegaMindz, Wankaego & Dj DStrong.')) ?>
 
-			<?= Html::anchor('album/studio3.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'The MegaMindz, Wankaego, Germaine Martel &amp P.')) ?>
+			<?= Html::anchor('assets/img/album/studio3.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'The MegaMindz, Wankaego, Germaine Martel & P.')) ?>
 			
-			<?= Html::anchor('album/studio4.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'The MegaMindz &amp Mac Glo at Plush.')) ?>
+			<?= Html::anchor('assets/img/album/studio4.jpg', '', array('rel' => 'lightbox[studio]', 'title' => 'The MegaMindz & Mac Glo at Plush.')) ?>
 			
-			<?= Html::anchor('album/studio5.jpg', '', array('rel' => 'lightbox[studio]', 'title' => ' Wankaego, Germaine Martel &amp Dj DStrong at Plush.')) ?>
+			<?= Html::anchor('img/album/studio5.jpg', '', array('rel' => 'lightbox[studio]', 'title' => ' Wankaego, Germaine Martel & Dj DStrong at Plush.')) ?>
+
 			
 			<div id="photoinfo">
 				<h2>Placements in Process</h2>

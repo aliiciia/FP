@@ -20,7 +20,7 @@
 html{ background: url(../img/newb.png) repeat; }
 
 #wrapper{
-    background: url(../img/finalbcg.png) repeat;
+    background: url(../3/finalbcg.png) repeat;
     height: 980px;
     width: 1006px; /*021128*/
     margin:0 auto;
@@ -410,7 +410,10 @@ select{
     font-family: "Helvetica";
     font-size: 1.000em;
     margin: 0 0 8px 0;
+    padding: 5px;
+
 }
+
 
 #buyarea h3{
     font-family: verdana;

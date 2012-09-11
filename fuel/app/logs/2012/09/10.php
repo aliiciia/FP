@@ -403,3 +403,63 @@ Error - 2012-09-10 00:14:29 --> 4096 - Object of class Fuel\Core\Asset_Instance 
 Error - 2012-09-10 00:14:31 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/classes/asset/instance.php on line 460
 Error - 2012-09-10 00:14:31 --> 2 - Illegal offset type in /Users/adeshield/Sites/mmz/fuel/core/classes/asset/instance.php on line 465
 Error - 2012-09-10 00:14:31 --> 4096 - Object of class Fuel\Core\Asset_Instance could not be converted to string in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 17:30:53 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 17:30:53 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 17:30:56 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:30:56 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:00 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:00 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:03 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:03 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:06 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:06 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:31:50 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 17:35:20 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 18:33:40 --> 2 - Illegal string offset 'href' in /Users/adeshield/Sites/mmz/fuel/core/classes/html.php on line 57
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:35:25 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:36:04 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:36:04 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:36:04 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:36:04 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:36:53 --> Parsing Error - syntax error, unexpected ')', expecting ',' or ';' in /Users/adeshield/Sites/mmz/fuel/app/views/site/media.php on line 33
+Error - 2012-09-10 18:37:45 --> Parsing Error - syntax error, unexpected ')', expecting ',' or ';' in /Users/adeshield/Sites/mmz/fuel/app/views/site/media.php on line 33
+Error - 2012-09-10 18:37:46 --> Parsing Error - syntax error, unexpected ')', expecting ',' or ';' in /Users/adeshield/Sites/mmz/fuel/app/views/site/media.php on line 33
+Error - 2012-09-10 18:38:15 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:38:15 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:38:15 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:38:49 --> Parsing Error - syntax error, unexpected ')' in /Users/adeshield/Sites/mmz/fuel/app/views/site/media.php on line 33
+Error - 2012-09-10 18:39:02 --> Parsing Error - syntax error, unexpected ')', expecting ',' or ';' in /Users/adeshield/Sites/mmz/fuel/app/views/site/media.php on line 33
+Error - 2012-09-10 18:39:22 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:39:22 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:39:22 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:39:22 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:44:14 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 18:44:14 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 18:46:12 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 18:46:12 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 18:46:19 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 18:46:19 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 18:48:04 --> 8 - Array to string conversion in /Users/adeshield/Sites/mmz/fuel/core/base.php on line 108
+Error - 2012-09-10 18:48:09 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 18:48:09 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 19:14:21 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 19:14:21 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 19:15:23 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 19:15:23 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 19:17:42 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 19:17:42 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 19:18:57 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 19:18:57 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 19:19:00 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 19:19:00 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 21:21:26 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 21:21:26 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-10 21:25:13 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-10 21:25:13 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45

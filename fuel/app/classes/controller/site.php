@@ -5,14 +5,20 @@ class Controller_Site extends Controller_Template
 
 	public function before()
 	{
-		Casset::js('jquery.flexslider.js');
-		Casset::js('jquery.livetwitter.js');
-		Casset::js('main.js');
-		
-		Casset::css('main.css');
+
+        Casset::css('main.css');
 		Casset::css('demo.css');
 		Casset::css('flexslider.css');
+		Casset::css('lightbox.css');
 
+		Casset::js('jquery.flexslider.js');
+		Casset::js('jquery.livetwitter.js');
+		Casset::js('jquery-ui-1.8.18.custom.min.js');
+		Casset::js('jquery.smooth-scroll.min.js');
+		Casset::js('lightbox.js');
+		Casset::js('jquery.youtubepopup.min.js');
+		Casset::js('jquery.youtubepopup.js');
+		Casset::js('main.js');
 	
 		parent::before();
 	}
@@ -28,11 +34,7 @@ class Controller_Site extends Controller_Template
 	{
 		
 
-		Casset::css('lightbox.css');
-		Casset::js('jquery-ui-1.8.18.custom.min.js');
-		Casset::js('jquery.smooth-scroll.min.js');
-		Casset::js('lightbox.js');
-		Casset::js('jquery.youtubepopup.min.js');
+		
 
 		$this->template->content = View::forge('site/media');
 	}

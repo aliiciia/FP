@@ -18,18 +18,18 @@
 			<h2>Networking</h2>
 			<ul>
 
+                <li><?= Html::anchor('http://www.twitter.com/themegamindz', Asset::img('twitter.png', array('alt' => 'twitter' ,'width' => '40', 'height' => '40')) . 'themegamindz', array('class' => 'text')) ?></li>
+               <li> <?= Html::anchor('https://www.soundclick.com/themegamindz', Asset::img('soundclick.png', array('alt' => 'soundclick' ,'width' => '40', 'height' => '40')) . 'themegamindz', array('class' => 'text')) ?></li>
+			   <li> <?= Html::anchor('https://www.facebook.com/mega.mindz.75', Asset::img('facebook.png', array('alt' => 'facebook','width' => '40', 'height' => '40')) . 'mega.mindz.75', array('class' => 'text')) ?></li>
 
-
-                 <?= Html::anchor('http://www.twitter.com/themegamindz',  Asset::img('twitter.png', '', array('alt' => 'twitter')), array('class' => 'text')) ?>
-
-			
+                <li><?= Html::anchor('https://www.facebook.com/shawn.deshield.5', Asset::img('facebook.png', array('alt' => 'facebook','width' => '40', 'height' => '40')) . 'shawn.deshield.5 ', array('class' => 'text')) ?></li>
 
 
 				
-				<li> <a href="https://twitter.com/themegamindz"><img src="image/twitter.png" alt="twiter" width=35px height=35px /> <span class='text'>themegamindz</span></a></li>
+				<!-- <li> <a href="https://twitter.com/themegamindz"><img src="image/twitter.png" alt="twiter" width=35px height=35px /> <span class='text'>themegamindz</span></a></li>
 				<li> <a href="https://www.soundclick.com/themegamindz"><img src="image/soundclick.png" alt="soundclick" width=35px height=35px /> <span class='text'>themegamindz</span> </a></li>
 				<li> <a href="https://www.facebook.com/mega.mindz.75"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>mega.mindz.75 </span> </a></li>
-				<li> <a href="https://www.facebook.com/shawn.deshield.5"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>shawn.deshield.5 </span> </a></li>
+				<li> <a href="https://www.facebook.com/shawn.deshield.5"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>shawn.deshield.5 </span> </a></li> -->
 			</ul>
 	</div><!--Networking  -->         
 </div><!--Wrap  -->
