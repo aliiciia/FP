@@ -5,8 +5,8 @@
 <script src="jquery.youtubepopup_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="jquery.youtubepopup_files/jquery.js"></script>
 <script type="text/javascript" src="jquery.youtubepopup_files/shCore.js"></script>
 <script type="text/javascript" src="jquery.youtubepopup_files/shBrushJScript.js"></script>
-<link href="jquery.youtubepopup_files/shCore.css" rel="stylesheet" type="text/css">
-<link href="jquery.youtubepopup_files/shThemeDefault.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery.youtubepopup_files/shCore.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery.youtubepopup_files/shThemeDefault.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="jquery.youtubepopup_files/analytics.js"></script>
 	
 <script type="text/javascript">

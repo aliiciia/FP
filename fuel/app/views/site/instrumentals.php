@@ -1,4 +1,4 @@
-<div class='inst'>
+ <div class='inst'>
 	<div class='player'>
 		<iframe id="musicPlayer" width="600" height="700" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F4645917&amp;auto_play=false&amp;show_artwork=true&amp;color=26827d"></iframe>
 	</div><!--Player  -->		

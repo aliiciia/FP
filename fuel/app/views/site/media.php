@@ -8,7 +8,7 @@
 	<div id='tab1'>            
 		<div id="video">
 
-			<?= Html::anchor('#', Asset::img('studio.png', array('alt' => 'video1')), array('class' => 'youtube', 'rel' => 'CIYH4LaKPjQ', 'title' => 'Player TEST')) ?>
+			<?= Html::anchor('#', Asset::img('studio.png', array('alt' => 'video1')), array('class' => 'youtube', 'rel' => 'CIYH4LaKPjQ', 'title' => 'Player TEST')) ?> 
 
 			<div id="videoinfo">
 				<h2>TGC TAKEOVER </h2>

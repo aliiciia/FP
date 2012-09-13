@@ -27,7 +27,7 @@
 
 			<nav>
 				<ul>
-					<li><?= Html::anchor('/', 'Home' ) ?></li>
+					<li><?= Html::anchor('/', 'Home') ?></li>
 					<li><?= Html::anchor('media', 'Media' ) ?></li>
 					<li><?= Html::anchor('instrumentals', 'Instrumentals' ) ?></li>
 					<li><?= Html::anchor('aboutus', 'About Us' ) ?></li>

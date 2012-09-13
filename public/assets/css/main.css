@@ -20,7 +20,7 @@
 html{ background: url(../img/newb.png) repeat; }
 
 #wrapper{
-    background: url(../3/finalbcg.png) repeat;
+    background: url(../img/finalbcg.png) repeat;
     height: 980px;
     width: 1006px; /*021128*/
     margin:0 auto;
@@ -576,14 +576,14 @@ label{
     width: 475px;
     height: 1.563em;
     margin: 0 0 30px 0px;
-    color: #d1d3d4;
+    color: #444;
 }
 
 .field textarea{
     width: 475px;
     height: 200px;
     margin: 0 0 30px 0px;
-    color: #d1d3d4;
+    color: #444;
 }
 
 #register{
@@ -601,34 +601,11 @@ label{
 #btn{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.063em;
-    color: #093d68;
     padding: 3px 20px;
     height: 33px;
-    background: -moz-linear-gradient(
-	    top,
-	    #fbb040 0%,
-	    #f7951e);
-    background: -webkit-gradient(
-	    linear, left top, left bottom, 
-	    from(#fbb040),
-	    to(#f7951e));
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
     border-radius: 30px;
-    border: 2px solid #de8525;
-    -moz-box-shadow:
-	    0px 3px 11px rgba(000,000,000,0.1),
-	    inset 1px 13px 10px rgba(245,240,244,0.5);
-    -webkit-box-shadow:
-	    0px 3px 11px rgba(000,000,000,0.1),
-	    inset 1px 13px 10px rgba(245,240,244,0.5);
-    box-shadow:
-	    0px 3px 11px rgba(000,000,000,0.1),
-	    inset 1px 13px 10px rgba(245,240,244,0.5);
-    text-shadow:
-	    0px -1px 0px rgba(000,000,000,0.2),
-	    0px 1px 0px rgba(255,255,255,0.3);
-}
+    
+   }
 
 
 

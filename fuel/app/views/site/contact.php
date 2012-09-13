@@ -1,17 +1,28 @@
 <div id="wrap">
 	<div id="register">
 		<p id='info'>Feel free to contact The MegaMindz with any questions or requests.</p>	
-		<form name="htmlform" method="post">
-			<div class="field">
-				<label for="name">Name </label><br>
-				<input  type="text" name="first_name" maxlength="50" ><br>
-				<label for="email"> Email Address </label><br>
-				<input  type="text" name="email" maxlength="80"><br>
-				<label for="comments">Comments </label><br>
-				<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea><br>
-			</div> <!--Field  -->
-			<input id="btn" type="submit" value="Send Message">  
-		</form>
+		
+		<?php echo Form::open(array('action' => 'site/contact', 'method' => 'post')); ?>  
+		   <p>
+		   	<div class="field">
+		      <?php echo Form::label('First & Last Name', 'name'); ?>
+		<?php echo Form::input('name'); ?>
+		   </p>
+		   <p>
+		      <?php echo Form::label('Email', 'email'); ?>
+		<?php echo Form::input('email'); ?>
+		   </p>
+		   <p>
+		      <?php echo Form::label('Comments', 'comment'); ?>
+		<?php echo Form::textarea('comment', '', array('cols' => 25, 'rows' => 6)); ?>
+		   </p>
+		 </div> <!--Field  -->
+		   <div class="actions">
+		      <?php echo Form::submit('submit', 'Send Message', array('id' => 'btn', 'type' => 'submit', 'value' => 'Add' )); ?>
+		   </div>
+		 
+		<?php echo Form::close(); ?>
+
 	</div><!--Register  -->
 		
 	<div id="networking">
