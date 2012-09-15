@@ -220,7 +220,7 @@ ul{
 }
 
 .tweets{
-    font-size:0.563em;
+    font-size:0.500em;
     width:260px;
     height: auto;
     margin:5px 0;
@@ -240,21 +240,24 @@ ul{
     float:right;
     margin:5px 0;
     width:200px;
-    line-height: 1.4em;
+    line-height: 1.3em;
     color: #333;
+     padding: 0;
 }
 
 .tweet img{
     float:left;
-    margin:5px;
+    margin:5px 0px 5px 5px;
+    padding: 0;
 }
 
-.tweet .time a {
+.tweet a {
     white-space: nowrap;
     text-decoration: none;
+    color: #26827d; 
 }
 
-.tweet .time a:hover { text-decoration: underline; }
+.tweet a:hover { text-decoration: underline; }
 
 /*-------------------------------------------------------------------------- MEDIA PAGE --------------------------------------------------------------------------------*/
 

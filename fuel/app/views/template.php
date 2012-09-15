@@ -9,8 +9,8 @@
     
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/blitzer/jquery-ui.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 	<?= Casset::render_css() ?>
 
   </head>
@@ -23,17 +23,9 @@
 			<h1>
 				<?= Html::anchor('/', Asset::img('mmz.png', array('alt' => 'logo', 'width' => '90', 'height' => '90'))) ?>
 			</h1>
-			</div>
+			</div> 
 
-			<nav>
-				<ul>
-					<li><?= Html::anchor('/', 'Home') ?></li>
-					<li><?= Html::anchor('media', 'Media' ) ?></li>
-					<li><?= Html::anchor('instrumentals', 'Instrumentals' ) ?></li>
-					<li><?= Html::anchor('aboutus', 'About Us' ) ?></li>
-					<li><?= Html::anchor('contact', 'Contact' )?></li>
-				</ul>
-			</nav>
+			<?= $nav ?>
 
 			<?= isset($content) ? $content : null ?>
 			
@@ -43,7 +35,7 @@
 
 	<footer>
 		<p id="divider">The MegaMindz &copy; 2012 </p>
-		<p> <a href="copy.html">Legal &amp; copyright </a></p>
+		<p><?= Html::anchor('copy', 'Legal & Copyright ' )?></p>
 	</footer>
 
 	<?= Casset::render_js() ?>

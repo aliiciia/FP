@@ -7,5 +7,6 @@ return array(
 
 	'instrumentals' => 'site/instrumentals',
 	'aboutus' => 'site/aboutus',
-	'contact' => 'site/contact'
+	'contact' => 'site/contact',
+	'copy'    => 'site/copy'
 );

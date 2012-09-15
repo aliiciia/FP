@@ -15,7 +15,7 @@
 										<?= Asset::img('studio.jpg') ?>
 									</li>
 									<li>
-										<?= Asset::img('showcase.png') ?>
+										<?= Asset::img('showcase.jpg') ?>
 									</li>
 								</ul>
 							</div>
