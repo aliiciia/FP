@@ -20,7 +20,7 @@
 							<option value="5 leases">5 leases $30.00 </option>
 							<option value="10 leases">10 leases $40.00 </option>
 						</select> </td></tr>
-						<tr><td id="inputname" ><input type="hidden" name="on1" value="Name or # of Beat">Name or # of Beat</td></tr>
+						<tr><td id="inputname" ><input type="hidden" name="on1" value="Name of Beat">Name of Beat</td></tr>
 						<tr><td><input id="namefield" type="text" name="os1" maxlength="200"></td></tr>
 						</table>
 						<input type="hidden" name="currency_code" value="USD">

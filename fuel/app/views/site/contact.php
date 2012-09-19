@@ -2,15 +2,15 @@
 	<div id="register">
 		<p id='info'>Feel free to contact The MegaMindz with any questions or requests.</p>	
 		
-		<?php echo Form::open(array('action' => 'site/contact', 'method' => 'post')); ?>  
+		<?php echo Form::open(array('action' => 'site/contact', 'method' => 'post', 'id' => 'Contactform')); ?>  
 		   <p>
 		   	<div class="field">
 		      <?php echo Form::label('First & Last Name', 'name'); ?>
-		<?php echo Form::input('name'); ?>
+		<?php echo Form::input('name', ''); ?>
 		   </p>
 		   <p>
 		      <?php echo Form::label('Email', 'email'); ?>
-		<?php echo Form::input('email'); ?>
+		<?php echo Form::input('email', ''); ?>
 		   </p>
 		   <p>
 		      <?php echo Form::label('Comments', 'comment'); ?>

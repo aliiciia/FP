@@ -18,10 +18,13 @@ class Controller_Site extends Controller_Template
 		Casset::css('demo.css');
 		Casset::css('flexslider.css');
 		Casset::css('lightbox.css');
+		Casset::css('blitzerjquery-ui.css');
 
+		Casset::js('jquery.validate.min.js');
 		Casset::js('jquery.youtubepopup.min.js');
 		Casset::js('jquery.flexslider.js');
 		Casset::js('jquery.livetwitter.js');
+		Casset::js('jquery-ui.min.js');
 		Casset::js('jquery-ui-1.8.18.custom.min.js');
 		Casset::js('jquery.smooth-scroll.min.js');
 		Casset::js('lightbox.js');
@@ -41,7 +44,8 @@ class Controller_Site extends Controller_Template
 			'active' => '/', 'items' => $this->nav_items,
 		));
 
-		$this->template->content = View::forge('site/index');
+		$this->template->content = View::forge('site/index', array('events' => Model_Event::get_all(),
+		 ));
 	}
 
 

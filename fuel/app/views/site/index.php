@@ -37,7 +37,7 @@
 					   <div id="headline1">
 						<?= Asset::img('GO.gif', array('alt' => 'new song GO')) ?>
 						<div id="newsinfo">
-						<h2><a href="inst.html"> GO! (New Instrumentals)</a></h2>
+						<h2><p><?= Html::anchor('instrumentals', 'GO! (New Instrumentals)' )?></p></h2>
 						<p>Crazy New Dubsteb Release with vocals by Siren. Lease now for $8. Contact me for Exclusive Prices.</p>
 						</div><!--Newsinfo  -->
 					</div><!--headline1  -->
@@ -45,7 +45,7 @@
 					 <div id="headline2">
 						<?= Asset::img('drake.jpg', array('alt' => 'free on top of the world')) ?>
 						<div id="newsinfo">
-						<h2><a href="inst.html"> On Top Of The World! <br>(Free Download)</a></h2>
+						<h2><?= Html::anchor('instrumentals', 'On Top Of The World!<br>(Free Download)' )?></h2>
 						<p>FREE DOWNLOAD TODAY ONLY!! This instrumental is an R&amp;B drake type of beat. Download will no longer be free after midnight.</p>
 						</div><!--Newsinfo  -->
 					</div><!--Headline2  -->
@@ -58,9 +58,10 @@
 				<div id="events">
 					 <h2>Events</h2>
 					 <ul>
-						<li><span id="evt">Driven Music Conference October 5-7 2012 Atlanta, GA</span></li>
-						<li><span id="evt">IStandard Beast of the Beats December 2012 New York, NY.</span></li>
-						<li><span id="evt">ASCAP "I Create Music" EXPO April 18-20, 2013 in Los Angeles, CA </span></li>
+					 	<?php foreach ($events as $event): ?>
+						<li><span id="evt"><?= isset($event->detail) ? $event->detail : null ?></span></li>
+						<?php endforeach; ?>
+
 					 </ul>
 				</div><!--Events  -->
 							
