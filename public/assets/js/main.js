@@ -84,8 +84,6 @@ $(document).ready(function(){
        $('#Beatform').simpleValidate({
             errorElement: 'em',
             errorText: '{label} is a required field.'
-});
-
         });   
 
 }); //end document ready
