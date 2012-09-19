@@ -23,7 +23,7 @@
 						<tr><td id="inputname" ><input type="hidden" name="on1" value="Name of Beat">Name of Beat</td></tr>
 						<tr><td><input id="namefield" class="required" type="text" name="os1" pattern ="[a-zA-Z0-9 ]+" maxlength="200"></td></tr>
 						</table>
-						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="currency_code" value="USD">     
 						<input id="paypalbtn" type="image" src="../../public/assets/img/paypal-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					</form>
 				</div> 
