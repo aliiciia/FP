@@ -6,15 +6,15 @@
 		   <p>
 		   	<div class="field">
 		      <?php echo Form::label('First & Last Name', 'name'); ?>
-		<?php echo Form::input('name', ''); ?>
+		<?php echo Form::input('name', '', array('name' => 'name', 'pattern' => '[a-zA-Z0-9 ]+', 'class' => 'required')); ?>
 		   </p>
 		   <p>
 		      <?php echo Form::label('Email', 'email'); ?>
-		<?php echo Form::input('email', ''); ?>
+		<?php echo Form::input('email', '', array('name' => 'email','pattern' => '^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$','class' => 'required email')); ?>
 		   </p>
 		   <p>
 		      <?php echo Form::label('Comments', 'comment'); ?>
-		<?php echo Form::textarea('comment', '', array('cols' => 25, 'rows' => 6)); ?>
+		<?php echo Form::textarea('comment', '', array('name' => 'comment','cols' => 25, 'rows' => 6 , 'pattern' => 'a-zA-Z0-9.!:/ ]+', 'class' => 'required')); ?>
 		   </p>
 		 </div> <!--Field  -->
 		   <div class="actions">
@@ -34,13 +34,6 @@
 			   <li> <?= Html::anchor('https://www.facebook.com/mega.mindz.75', Asset::img('facebook.png', array('alt' => 'facebook','width' => '40', 'height' => '40')) . 'mega.mindz.75', array('class' => 'text')) ?></li>
 
                 <li><?= Html::anchor('https://www.facebook.com/shawn.deshield.5', Asset::img('facebook.png', array('alt' => 'facebook','width' => '40', 'height' => '40')) . 'shawn.deshield.5 ', array('class' => 'text')) ?></li>
-
-
-				
-				<!-- <li> <a href="https://twitter.com/themegamindz"><img src="image/twitter.png" alt="twiter" width=35px height=35px /> <span class='text'>themegamindz</span></a></li>
-				<li> <a href="https://www.soundclick.com/themegamindz"><img src="image/soundclick.png" alt="soundclick" width=35px height=35px /> <span class='text'>themegamindz</span> </a></li>
-				<li> <a href="https://www.facebook.com/mega.mindz.75"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>mega.mindz.75 </span> </a></li>
-				<li> <a href="https://www.facebook.com/shawn.deshield.5"><img src="image/facebook.png" alt="facebook" width=35px height=35px /> <span class='text'>shawn.deshield.5 </span> </a></li> -->
 			</ul>
 	</div><!--Networking  -->         
 </div><!--Wrap  -->

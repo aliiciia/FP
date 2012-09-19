@@ -401,7 +401,7 @@ ul{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    margin: 0 0 15px 0;
+    margin: 0 0 5px 0;
     font-family: "Helvetica";
     font-size: 1.125em;
     padding: 2px 0 2px 5px;
@@ -412,7 +412,7 @@ select{
     height: 30px;
     font-family: "Helvetica";
     font-size: 1.000em;
-    margin: 0 0 8px 0;
+    margin: 0 0 5px 0;
     padding: 5px;
 
 }
@@ -429,14 +429,15 @@ select{
 #paypal{ color: #093d68; }
 
 #paypalbtn{
-     margin: 0px 0 5px 25px;
-     width: 150px;
+     margin: 0px 0 5px 0px;
+     width: 70%;
+     height: 70%;
 }
 #inputname{
     color: #093d68;
     font-family: "Helvetica";
     font-size: 1.0em;
-    margin: 10px 0 0 20px;
+    margin: 5px 0 0 20px;
     font-weight: bold;
 }
 
@@ -575,13 +576,12 @@ label{
     color: #7c5a1f;
 }
 
-#Contactform label.error {
-    color: #FB3A3A;
-    display: inline-block;
-    margin: 4px 0 5px 125px;
-    padding: 0;
-    text-align: left;
-    width: 220px;
+em.error {
+  clear: both;
+  color: #f00;
+  display: block;
+  font-size: 12px;
+  margin: 5px 0 0 125px;
 }
 
 .field input{

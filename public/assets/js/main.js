@@ -71,37 +71,22 @@ $(function(){
 
 $(document).ready(function(){
 
-	var contact = {
-
-setupFormValidation: function()
-        {
-            //form validation rules
-            $("#Contactform").validate({
-                rules: {
-                    name: "required",
-                    email: {
-                        required: true,
-                        email: true
-                    },
-                    comment: {
-                        required: true
-                },
-                messages: {
-                    firstname: "Please enter your firstname & lastname",
-                    email: "Please enter a valid email address",
-                    comment: "Please enter a message."
-                },
-                submitHandler: function(form) {
-                    form.submit();
-                }
-            }
-            });
-        }
+	   $('#Contactform').simpleValidate({
+            errorElement: 'em',
+            errorText: '{label} is a required field.',
+            ajaxRequest: true,
+        completeCallback: function($el) {
+        var formData = $el.serialize();
+        alert('Do some AJAX if you want: ' + formData);
 }
+});
 
-    $(document).ready(function($) {
-        contat.setupFormValidation();
-    });    
+       $('#Beatform').simpleValidate({
+            errorElement: 'em',
+            errorText: '{label} is a required field.'
+});
+
+        });   
 
 }); //end document ready
 

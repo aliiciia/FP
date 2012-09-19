@@ -20,7 +20,7 @@ class Controller_Site extends Controller_Template
 		Casset::css('lightbox.css');
 		Casset::css('blitzerjquery-ui.css');
 
-		Casset::js('jquery.validate.min.js');
+		Casset::js('jquery.simpleValidate.js');
 		Casset::js('jquery.youtubepopup.min.js');
 		Casset::js('jquery.flexslider.js');
 		Casset::js('jquery.livetwitter.js');
