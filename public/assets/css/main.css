@@ -206,18 +206,18 @@ ul{
 #events h2{
     font-family: 'code_pro_demoregular';
     font-size: 1.375em;
-    letter-spacing: 0.063em;
+    letter-spacing: 0.05em;
     color: #7c5a1f;
     margin: 5px 0;
 }
 
-#events li{ margin: 10px 0 10px 10px; }
+#events li{ margin: 10px 20px 5px 15px; }
 
 #events span{
     font-family: "Helvetica";
     font-size: 0.875em;
     color: #ccc;
-    padding: 0;
+    padding:0px; 
 }
 
 #twitter h2{
@@ -225,7 +225,8 @@ ul{
     font-size: 1.375em;
     letter-spacing: 0.063em;
     color: #7c5a1f;
-    margin: 5px 0 20px;
+    margin: 0px 0 20px;
+    padding: 0px;
 }
 
 .tweets{
