@@ -211,7 +211,7 @@ ul{
     margin: 5px 0;
 }
 
-#events li{ margin: 15px 0 20px 15px; }
+#events li{ margin: 10px 0 10px 15px; }
 
 #events span{
     font-family: "Helvetica";
@@ -229,7 +229,7 @@ ul{
 }
 
 .tweets{
-    font-size:0.400em;
+    font-size:0.500em;
     width:260px;
     height: auto;
     margin:5px 0;
