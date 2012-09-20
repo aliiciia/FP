@@ -223,7 +223,7 @@ ul{
 #twitter h2{
     font-family: 'code_pro_demoregular';
     font-size: 1.375em;
-    letter-spacing: 0.063em;
+    letter-spacing: 0.05em;
     color: #7c5a1f;
     margin: 0px 0 20px;
     padding: 0px;
@@ -250,7 +250,7 @@ ul{
     float:right;
     margin:5px 0;
     width:200px;
-    line-height: 1em;
+    line-height: 1.2em;
     color: #333;
      padding: 0;
 }
