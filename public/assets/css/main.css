@@ -154,6 +154,7 @@ ul{
     height: 1080px;
 }
 
+
 #headline2 img{
     margin: 10px;
     width: 105px;
@@ -174,7 +175,7 @@ ul{
     float: left;
 }
 
-#newsinfo{
+#newsinfo,#newsinfo2{
     margin:10px 20px 0 0;
     width: 455px;
     float: Right;  
@@ -185,9 +186,17 @@ ul{
     font-size: 1.125em;
     color: #26827d;
     margin-bottom: 10px;
+
 }
 
-#newsinfo p{
+#newsinfo2 h2 a{
+    font-family: 'code_pro_demoregular';
+    font-size: 1.125em;
+    color: #26827d;
+    margin-bottom: 10px;
+}
+
+#newsinfo,#newsinfo2 p{
     font-family: "Helvetica";
     font-size: 1.000em;
     color: #555;
@@ -204,7 +213,7 @@ ul{
 
 #events li{ margin: 15px 0 20px 15px; }
 
-#evt{
+#events span{
     font-family: "Helvetica";
     font-size: 0.875em;
     color: #ccc;
@@ -399,8 +408,6 @@ ul{
     width: 235px;
     border:2px solid #939598;
     height: 30px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     margin: 0 0 5px 0;
     font-family: "Helvetica";
@@ -435,7 +442,7 @@ select{
 }
 
 
-#inputname{
+#inputname,#inputname2{
     color: #093d68;
     font-family: "Helvetica";
     font-size: 1.0em;
@@ -628,8 +635,6 @@ em.error {
         from(#ffffff),
         color-stop(0.50, #ffffff),
         to(#b5b5b5));
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
     border-radius: 30px;
     border: 2px solid #26827d;
     -moz-box-shadow:
@@ -647,13 +652,12 @@ em.error {
 }
 
     
-   }
 
 /*-------------------------------------------------------------------------- COPY PAGE --------------------------------------------------------------------------------*/
 
 .copyright{
 
-    margin:20 25px 0 20px;
+    margin:20px 25px 0 20px;
     clear:both;
 }
 

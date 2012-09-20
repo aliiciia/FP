@@ -71,7 +71,7 @@ $(function(){
 
 $(document).ready(function(){
 
-	   $('#Contactform').simpleValidate({
+	   $('form.Contactform').simpleValidate({
             errorElement: 'em',
             errorText: '{label} is a required field.',
             ajaxRequest: true,

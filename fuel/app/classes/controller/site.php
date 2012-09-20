@@ -20,7 +20,7 @@ class Controller_Site extends Controller_Template
 		Casset::css('lightbox.css');
 		Casset::css('blitzerjquery-ui.css');
 
-		Casset::js('jquery.simpleValidate.js');
+		
 		Casset::js('jquery.youtubepopup.min.js');
 		Casset::js('jquery.flexslider.js');
 		Casset::js('jquery.livetwitter.js');
@@ -30,6 +30,8 @@ class Controller_Site extends Controller_Template
 		Casset::js('lightbox.js');
 		Casset::js('twitter.js');
 		Casset::js('main.js');
+		Casset::js('jquery.simpleValidate.js');
+		
 
 		parent::before();
 	}

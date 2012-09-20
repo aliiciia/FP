@@ -1,21 +1,21 @@
 			<div id="image">
   				<div id="container" class="cf">
 
-					<div id="main" role="main">
+					<div  role="main">
 						<section class="slider">
 							<div class="flexslider">
 								<ul class="slides">
 									<li>
-										<?= Asset::img('pic2.jpg') ?>
+										<?= Asset::img('pic2.jpg', array('alt' => 'megamindz in chris studio.')) ?>
 									</li>
 									<li>
-										<?= Asset::img('khloe.jpg') ?>
+										<?= Asset::img('khloe.jpg', array('alt' => 'baby megamindz.')) ?>
 									</li>
 									<li>
-										<?= Asset::img('studio.jpg') ?>
+										<?= Asset::img('studio.jpg', array('alt' => 'megamindz at plush')) ?>
 									</li>
 									<li>
-										<?= Asset::img('showcase.jpg') ?>
+										<?= Asset::img('showcase.jpg', array('alt' => 'megamindz in studio.')) ?>
 									</li>
 								</ul>
 							</div>
@@ -37,14 +37,14 @@
 					   <div id="headline1">
 						<?= Asset::img('GO.gif', array('alt' => 'new song GO')) ?>
 						<div id="newsinfo">
-						<h2><p><?= Html::anchor('instrumentals', 'GO! (New Instrumentals)' )?></p></h2>
+						<h2><?= Html::anchor('instrumentals', 'GO! (New Instrumentals)' )?></h2>
 						<p>Crazy New Dubsteb Release with vocals by Siren. Lease now for $8. Contact me for Exclusive Prices.</p>
 						</div><!--Newsinfo  -->
 					</div><!--headline1  -->
 					
 					 <div id="headline2">
 						<?= Asset::img('drake.jpg', array('alt' => 'free on top of the world')) ?>
-						<div id="newsinfo">
+						<div id="newsinfo2">
 						<h2><?= Html::anchor('instrumentals', 'On Top Of The World!<br>(Free Download)' )?></h2>
 						<p>FREE DOWNLOAD TODAY ONLY!! This instrumental is an R&amp;B drake type of beat. Download will no longer be free after midnight.</p>
 						</div><!--Newsinfo  -->
@@ -59,7 +59,7 @@
 					 <h2>Events</h2>
 					 <ul>
 					 	<?php foreach ($events as $event): ?>
-						<li><span id="evt"><?= isset($event->detail) ? $event->detail : null ?></span></li>
+						<li><span><?= isset($event->detail) ? $event->detail : null ?></span></li>
 						<?php endforeach; ?>
 
 					 </ul>

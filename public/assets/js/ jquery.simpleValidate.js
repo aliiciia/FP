@@ -1,3 +1,4 @@
+
 /*
 * Simple jQuery Form Validation Plugin
 * http://github.com/davist11/jQuery-Simple-Validate

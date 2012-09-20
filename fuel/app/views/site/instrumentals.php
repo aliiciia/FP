@@ -1,6 +1,6 @@
  <div class='inst'>
 	<div class='player'>
-		<iframe id="musicPlayer" width="600" height="700" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F4645917&amp;auto_play=false&amp;show_artwork=true&amp;color=26827d"></iframe>
+		<iframe id="musicPlayer" width="600" height="700" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F4645917&amp;auto_play=false&amp;show_artwork=true&amp;color=26827d"></iframe>
 	</div><!--Player  -->		
 	 
 	<div class='store'>
@@ -8,7 +8,7 @@
 			<div id="buyarea">
 				<h3>Secured payments by <span id="paypal">PayPal</span></h3>
 
-				<div id="paypal">
+				<div id="paypalform">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="Beatform">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="Z3VXVGWRTSE3N">
@@ -20,12 +20,12 @@
 							<option value="5 leases">5 leases $30.00 </option>
 							<option value="10 leases">10 leases $40.00 </option>
 						</select> </td></tr>
-						<tr><td id="inputname" ><input type="hidden" name="on1" value="Name of Beat">Name of Beat</td></tr>
+						<tr><td id="inputname2" ><input type="hidden" name="on1" value="Name of Beat">Name of Beat</td></tr>
 						<tr><td><input id="namefield" class="required" type="text" name="os1" pattern ="[a-zA-Z0-9 ]+" maxlength="200"></td></tr>
 						</table>
 						<input type="hidden" name="currency_code" value="USD"> 
     
-						<input id="paypalbtn" type="image" <?= Asset::img('paypal-button.png', array('alt' => 'Btn', 'width' => '200', 'height' => '90')) ?> 
+						<input id="paypalbtn" type="image" name="submit" <?= Asset::img('paypal-button.png', array('alt' => 'Btn', 'width' => '200', 'height' => '90')) ?> 
 					</form>
 				</div> 
 			</div>
