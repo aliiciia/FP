@@ -208,7 +208,7 @@ ul{
     font-size: 1.375em;
     letter-spacing: 0.063em;
     color: #7c5a1f;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 #events li{ margin: 15px 0 20px 15px; }
@@ -225,11 +225,11 @@ ul{
     font-size: 1.375em;
     letter-spacing: 0.063em;
     color: #7c5a1f;
-    margin: 10px 0 20px;
+    margin: 5px 0 20px;
 }
 
 .tweets{
-    font-size:0.500em;
+    font-size:0.400em;
     width:260px;
     height: auto;
     margin:5px 0;
@@ -249,7 +249,7 @@ ul{
     float:right;
     margin:5px 0;
     width:200px;
-    line-height: 1.3em;
+    line-height: 1em;
     color: #333;
      padding: 0;
 }
