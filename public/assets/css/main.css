@@ -649,5 +649,47 @@ em.error {
     
    }
 
+/*-------------------------------------------------------------------------- COPY PAGE --------------------------------------------------------------------------------*/
+
+.copyright{
+
+    margin:20 25px 0 20px;
+    clear:both;
+}
+
+
+.copyright h1{
+
+    clear:both;
+    font-family: 'code_pro_demoregular';
+    font-size: 1.625em;
+    letter-spacing: 0.063em;
+    color:#c61717;
+    margin: 3px 0px 30px 350px;
+}
+
+
+.copyright p{
+    color: #ccc;
+    font-family: "Helvetica";
+    font-size: 1.063em;
+    line-height: 1.7em; 
+    margin: 0px 25px 20px 20px; 
+}
+
+.copyright h3{
+    color: #7c5a1f;
+    font-family: 'code_pro_demoregular';
+    letter-spacing: 0.063em;
+    font-size: 1.2em;
+    margin: 30px 25px 0px 20px;
+    line-height: 1.5em; 
+}
+
+
+
+
+
+
 
 
