@@ -33,7 +33,7 @@
 						ajaxRequest: true,
 						completeCallback: function($el) {
 							var formData = $el.serialize();
-							alert('Do some AJAX if you want: ' + formData);
+					
 						}
 					});
 				});

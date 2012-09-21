@@ -30,7 +30,7 @@
 							   
 				<div id="features">
 					<h2>Featured Beats</h2>
-					<p>Welcome to MegamindzMusic.com. We are Your one stop shop for industry ready and top quality instrumentals. On this site we offer instrumentals, video tutorials, and free downloads to help you exel and get better at your craft.</p>
+					<p>Welcome to MegamindzMusic.com. We are your one stop shop for industry ready and top quality instrumentals. On this site we offer instrumentals, video tutorials, and free downloads to help you excel and perfect your craft.</p>
 				</div><!--Features  -->
 				
 				<div class="news">
