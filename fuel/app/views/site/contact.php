@@ -29,12 +29,8 @@
 			<script>
 				$(document).ready(function() {
 					$('form.Contactform').simpleValidate({
-						errorElement: 'em',
-						ajaxRequest: true,
-						completeCallback: function($el) {
-							var formData = $el.serialize();
-					
-						}
+						errorElement: 'em'
+						
 					});
 				});
 			</script>
