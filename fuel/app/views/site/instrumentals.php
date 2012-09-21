@@ -9,7 +9,7 @@
 				<h3>Secured payments by <span id="paypal">PayPal</span></h3>
 
 				<div id="paypalform">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="Beatform">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="Beatform">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="Z3VXVGWRTSE3N">
 						<table>
@@ -27,6 +27,19 @@
     
 						<input id="paypalbtn" type="image" name="submit" <?= Asset::img('paypal-button.png', array('alt' => 'Btn', 'width' => '200', 'height' => '90')) ?> 
 					</form>
+
+						<script>
+							$(document).ready(function() {
+								$('form.Beatform').simpleValidate({
+									errorElement: 'em',
+									ajaxRequest: true,
+									completeCallback: function($el) {
+										var formData = $el.serialize();
+										alert('Do some AJAX if you want: ' + formData);
+									}
+								});
+							});
+						</script>
 				</div> 
 			</div>
 		</div><!--Shop  -->

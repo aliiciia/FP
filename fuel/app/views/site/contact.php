@@ -6,18 +6,18 @@
 		   
 		   	<div class="field">
 		   	<p>	
-		      <em class="required"><?php echo Form::label('First & Last Name', 'name'); ?> *</em>
+		    <?php echo Form::label('First & Last Name', 'name'); ?> 
+		   
 		<?php echo Form::input('name', '', array('name' => 'name', 'pattern' => '[a-zA-Z0-9 ]+', 'class' => 'required')); ?>
-		   <em class="error"></em>
 		   </p>
 		   <p>
-		      <?php echo Form::label('Email', 'email'); ?> <em class="required">*</em>
+		      <?php echo Form::label('Email', 'email'); ?>
 		<?php echo Form::input('email', '', array('name' => 'email','pattern' => '^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$','class' => 'required email')); ?>
 		   </p>
 		   <p>
 		      <?php echo Form::label('Comments', 'comment'); ?>
 		<?php echo Form::textarea('comment', '', array('name' => 'comment','cols' => 25, 'rows' => 6 , 'class' => 'required')); ?>
-		  
+		  </p>
 		 </div> <!--Field  -->
 		   <div class="actions">
 		      <?php echo Form::submit('submit', 'Send Message', array('id' => 'btn', 'type' => 'submit', 'value' => 'Add' )); ?>
@@ -27,17 +27,17 @@
 		<?php echo Form::close(); ?>
 
 			<script>
-$(document).ready(function() {
-$('form.Contactform').simpleValidate({
-errorElement: 'em',
-ajaxRequest: true,
-completeCallback: function($el) {
-var formData = $el.serialize();
-alert('Do some AJAX if you want: ' + formData);
-}
-});
-});
-</script>
+				$(document).ready(function() {
+					$('form.Contactform').simpleValidate({
+						errorElement: 'em',
+						ajaxRequest: true,
+						completeCallback: function($el) {
+							var formData = $el.serialize();
+							alert('Do some AJAX if you want: ' + formData);
+						}
+					});
+				});
+			</script>
 
 	</div><!--Register  -->
 		

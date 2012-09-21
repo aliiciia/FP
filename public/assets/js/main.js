@@ -64,27 +64,14 @@ $(function(){
     });
 });
 
-
+ 
 
 
 (function($){
 
 $(document).ready(function(){
 
-	   $('form.Contactform').simpleValidate({
-            errorElement: 'em',
-            errorText: '{label} is a required field.',
-            ajaxRequest: true,
-        completeCallback: function($el) {
-        var formData = $el.serialize();
-        alert('Do some AJAX if you want: ' + formData);
-}
-});
 
-       $('#Beatform').simpleValidate({
-            errorElement: 'em',
-            errorText: '{label} is a required field.'
-        });   
 
        var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-34963602-1']);
