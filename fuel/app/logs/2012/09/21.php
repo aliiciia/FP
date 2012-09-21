@@ -34,3 +34,17 @@ Error - 2012-09-21 05:26:11 --> 8 - Undefined variable: title in /Users/adeshiel
 Error - 2012-09-21 05:26:11 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
 Error - 2012-09-21 05:26:12 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
 Error - 2012-09-21 05:26:12 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:10 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:15 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:15 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:16 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:16 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:41 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:41 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
+Error - 2012-09-21 05:45:42 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 5
+Error - 2012-09-21 05:45:42 --> 8 - Undefined variable: title in /Users/adeshield/Sites/mmz/fuel/app/views/error/404.php on line 45
